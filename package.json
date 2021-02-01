@@ -1,0 +1,42 @@
+{
+  "name": "@yarrgh/react-scroll-memory",
+  "version": "1.0.23",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yarrgh/react-scroll-memory.git"
+  },
+  "description": "",
+  "main": "./build/index.js",
+  "module": "./build/index.es.js",
+  "files": [
+    "build",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rimraf ./build && rollup -c"
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.1",
+    "@types/react": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
+    "@typescript-eslint/eslint-plugin": "^4.14.1",
+    "@typescript-eslint/parser": "^4.14.1",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-react": "^7.22.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.38.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "typescript": "^4.1.3"
+  }
+}
