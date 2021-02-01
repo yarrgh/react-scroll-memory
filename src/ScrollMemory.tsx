@@ -15,7 +15,7 @@ interface ScrollProps {
 
 const url = new Map<string, number>();
 
-const ScrollMemory: React.FC<ScrollProps> = ({ elementId }) => {
+export const ScrollMemory: React.FC<ScrollProps> = ({ elementId }) => {
   const location = useLocation();
   const [prevLocation, setPrevLocation] = useState(location);
 
@@ -57,5 +57,3 @@ const ScrollMemory: React.FC<ScrollProps> = ({ elementId }) => {
 
   return null;
 };
-
-export default ScrollMemory;

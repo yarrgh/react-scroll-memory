@@ -1,3 +1,1 @@
-import ScrollMemory from "./ScrollMemory";
-
-export { default as ScrollMemory } from "./ScrollMemory";
+export * from "./ScrollMemory";
