@@ -10,7 +10,3 @@ updates:
     schedule:
       interval: "weekly"
       day: "sunday"
-    automerged_updates:
-      - match:
-        dependency_type: "all"
-        update_type: "all"
